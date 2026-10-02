@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>MapClickTeleport</AssemblyName>
+    <RootNamespace>MapClickTeleport</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>bin\Release\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>C:\Users\AMX\.nuget\packages\bepinex.baselib\5.4.20\lib\netstandard2.0\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="LazyBearTechnology">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\LazyBearTechnology.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- WorldZoneData derives from a Sirenix serialized base type. -->
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\Sirenix.Serialization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- WorldZone.ZoneCollider (BoxCollider) and its world Bounds. -->
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\Game\Graveyard Keeper 2\GraveyardKeeper2_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

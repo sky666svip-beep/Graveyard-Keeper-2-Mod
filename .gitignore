@@ -1,0 +1,29 @@
+# === Build output (contains mod DLLs + dependency DLLs, do not distribute) ===
+bin/
+obj/
+*.cache
+[Bb]in/
+[Oo]bj/
+
+# === Reverse-engineered game source (copyright - DO NOT PUBLISH) ===
+Game-source-code/
+
+# === External tools / game file backups (not mod source) ===
+tools/
+backups/
+
+# === Local AI / editor tooling data ===
+.codebuddy/
+.agents/
+.workbuddy-ai/
+.vs/
+.idea/
+*.user
+
+# === OS / misc ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === Backup files ===
+*.bak
